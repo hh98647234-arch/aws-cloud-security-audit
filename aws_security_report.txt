@@ -1,0 +1,18 @@
+AWS CLOUD SECURITY AUDIT REPORT
+========================================
+Audit Type: Simulated AWS Security audit
+
+SECURITY FINDINGS
+1. IAM: developer MFA disabled
+2. IAM: test_user MFA disabled
+3. IAM: Administator access requires review
+4. S3: public-files bucket has public access enabled
+5. S3: public-files bucket encryption disabled
+6. CloudTrail: development-trail logging disabled
+
+SECURITY RECOMMMENDATIONS
+1. Enable MFA for IAM users.
+2. Review administator permissions.
+3. Restrict public S3 bucket access.
+4. Enabled S3 bucket encryption.
+5. Enabled CloudTrail logging.
